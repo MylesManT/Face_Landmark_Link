@@ -31,7 +31,7 @@ while True:
         print("Invalid input. Please enter 'Y' or 'N'.")
 
 eyebool = True
-
+#check eye tracking
 while True:
     eyesymmetry = input("Do you want symmetric eye tracking?  (Y/N):")
 
@@ -406,5 +406,6 @@ with open(output_csv_path, 'w', newline='') as csv_file:
 # Release the VideoCapture object and close all windows
 cap.release()
 cv2.destroyAllWindows()
+
 
 

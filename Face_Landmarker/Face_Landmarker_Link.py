@@ -31,7 +31,6 @@ while True:
         print("Invalid input. Please enter 'Y' or 'N'.")
 
 eyebool = True
-#check eye tracking
 while True:
     eyesymmetry = input("Do you want track each eye separately? (Y/N):")
 

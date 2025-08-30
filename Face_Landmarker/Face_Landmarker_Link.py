@@ -33,7 +33,7 @@ while True:
 eyebool = True
 #check eye tracking
 while True:
-    eyesymmetry = input("Do you want track each eye separately?  (Y/N):")
+    eyesymmetry = input("Do you want track each eye separately? (Y/N):")
 
     if eyesymmetry.lower() == 'y':
         print("Eye symmetry set. Left eye movement will be applied to both eyes") 

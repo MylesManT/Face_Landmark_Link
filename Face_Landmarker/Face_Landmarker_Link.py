@@ -15,7 +15,7 @@ import os
 
 #first questions
 headbool = True
-
+#check headtracking
 while True:
     headtracking = input("Enable head tracking? (Y/N): ")
 

@@ -34,11 +34,11 @@ eyebool = True
 while True:
     eyesymmetry = input("Do you want track each eye separately? (Y/N):")
 
-    if eyesymmetry.lower() == 'y':
+    if eyesymmetry.lower() == 'n':
         print("Eye symmetry set. Left eye movement will be applied to both eyes") 
         eyebool = False 
         break  # Exit the loop when input is 'N' or 'n'              
-    elif eyesymmetry.lower() == 'n':
+    elif eyesymmetry.lower() == 'y':
         print("Eye symmetry disabled")
         eyebool = True  
         break  # Exit the loop when input is 'N' or 'n'              

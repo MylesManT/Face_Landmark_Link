@@ -45,7 +45,7 @@ while True:
     else:
         print("Invalid input. Please enter 'Y' or 'N'.")
 
-print("Press 'Q' at any point during capture to STOP.")
+input("Press 'Q' at any point during capture to STOP. Press 'ENTER' to begin capture")
 
 
 # media pipe face landmarker options

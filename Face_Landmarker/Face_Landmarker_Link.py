@@ -43,7 +43,9 @@ while True:
         eyebool = True  
         break  # Exit the loop when input is 'N' or 'n'              
     else:
-        print("Invalid input. Please enter 'Y' or 'N'.")        
+        print("Invalid input. Please enter 'Y' or 'N'.")
+
+print("Press 'Q' at any point during capture to STOP.")
 
 
 # media pipe face landmarker options

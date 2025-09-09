@@ -27,7 +27,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='Face_Landmarker_Link',
+    name='Face Performance Capture',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
